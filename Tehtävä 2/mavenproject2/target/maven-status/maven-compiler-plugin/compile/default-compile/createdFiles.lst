@@ -1,0 +1,8 @@
+Main.class
+OpiskelijaFactory.class
+AbstractFactory.class
+Boss.class
+BossFactory.class
+IVaate.class
+Opiskelija.class
+FactoryProvider.class
