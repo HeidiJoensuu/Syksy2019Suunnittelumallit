@@ -1,0 +1,11 @@
+Main.class
+OpiskelijaFactory.class
+AbstractFactory.class
+Boss.class
+OpiskelijaFactory$FactoryHolder.class
+BossFactory.class
+IVaate.class
+Opiskelija.class
+Singleton.class
+BossFactory$FactoryHolder.class
+FactoryProvider.class
