@@ -1,3 +1,5 @@
+package vaateTehdas;
+
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,11 +27,10 @@ public class Main {
         AbstractFactory vaateB = null;
         String selected;
         Scanner s = new Scanner(System.in);
-        System.out.println(new File(".").getAbsolutePath());
         Properties properties = new Properties();
         try{
             properties.load(
-                    new FileInputStream("C:\\Users\\Heidi\\Documents\\Koulu\\Vuosi 2\\Puolvuotisprojekti 2\\Suunnittelumallit\\Tehtävä 2b\\Reflectio\\src\\main\\java\\vaateTehdas\\vaate.properties"));
+                    new FileInputStream("src\\main\\java\\vaateTehdas\\vaate.properties"));
         } catch(IOException e) {
             e.printStackTrace();}
         try{
@@ -45,6 +46,7 @@ public class Main {
         do {
         System.out.println("Oletko Jasper Adidas opiskelija (1)");
         System.out.println("vai Boss insinööri (2)?");
+        System.out.println("*Kävele pois* (3)?");
         selected = s.nextLine();
         System.out.println("Jasper ylpeästi sanoo: Minulla on päällä");
         switch(selected){
