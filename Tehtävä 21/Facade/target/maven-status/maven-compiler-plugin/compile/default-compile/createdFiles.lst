@@ -1,0 +1,5 @@
+com\mycompany\facade\CPU.class
+com\mycompany\facade\ComputerFacade.class
+com\mycompany\facade\HardDrive.class
+com\mycompany\facade\Memory.class
+com\mycompany\facade\Main.class
